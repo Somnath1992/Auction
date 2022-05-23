@@ -9,9 +9,9 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>product.cmd</module>
-        <module>product.common</module>
-        <module>product.query</module>
+        <module>product_transaction.cmd</module>
+        <module>product_transaction.common</module>
+        <module>product_transaction.query</module>
         <module>../cqrs/cqrs.core</module>
 
 

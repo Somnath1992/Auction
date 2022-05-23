@@ -7,13 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="product.cmd" />
         <module name="product.common" />
         <module name="product.query" />
-        <module name="ProductTransaction" />
+        <module name="product.cmd" />
+        <module name="product_transaction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="product_transaction.cmd" target="11" />
+      <module name="product_transaction.common" target="11" />
+      <module name="product_transaction.query" target="11" />
       <module name="producttrxn.cmd" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +27,10 @@
       <module name="product.cmd" options="-parameters" />
       <module name="product.common" options="-parameters" />
       <module name="product.query" options="-parameters" />
+      <module name="product_transaction" options="-parameters" />
+      <module name="product_transaction.cmd" options="-parameters" />
+      <module name="product_transaction.common" options="-parameters" />
+      <module name="product_transaction.query" options="-parameters" />
     </option>
   </component>
 </project>
