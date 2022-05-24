@@ -28,6 +28,7 @@ public class CommandApplication {
 
 	@PostConstruct
 	public void registerHandlers() {
+
 		commandDispatcher.registerHandler(Transaction.class, commandHandler::handle);
 	}
 

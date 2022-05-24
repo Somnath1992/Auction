@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fse</groupId>
-	<artifactId>product.cmd</artifactId>
+	<artifactId>product_trxn.cmd</artifactId>
 	<version>1.0.0</version>
 	<name>product.cmd</name>
 	<description>Project For FSE</description>

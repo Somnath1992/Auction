@@ -7,6 +7,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.Date;
@@ -16,7 +18,8 @@ import java.util.Date;
 @AllArgsConstructor
 @SuperBuilder
 public class ProductTransactionEvent extends BaseEvent {
-    private String trx_ID;
+
+    private Long trx_ID;
     private String firstName;
     private String lastName;
     private String address;

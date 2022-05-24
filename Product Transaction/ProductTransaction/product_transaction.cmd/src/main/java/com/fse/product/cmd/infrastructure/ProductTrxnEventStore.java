@@ -6,13 +6,11 @@ import com.fse.cqrs.core.infrastructure.EventStore;
 
 import com.fse.cqrs.core.producers.EventProducer;
 import com.fse.product.cmd.domain.EventStoreRepository;
-import com.fse.product.cmd.domain.ProductAggregate;
+import com.fse.product.cmd.domain.ProductTrxnAggregate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class ProductTrxnEventStore implements EventStore {
@@ -37,7 +35,7 @@ public class ProductTrxnEventStore implements EventStore {
             var eventModel = EventModel.builder()
                     .timeStamp(new Date())
                     .aggregateIdentifier(aggregateId)
-                    .aggregateType(ProductAggregate.class.getTypeName())
+                    .aggregateType(ProductTrxnAggregate.class.getTypeName())
                     .version(version)
                     .eventType(event.getClass().getTypeName())
                     .eventData(event)

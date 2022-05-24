@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import java.sql.Timestamp;
 
 @NoArgsConstructor
-public class ProductAggregate extends AggregateRoot {
+public class ProductTrxnAggregate extends AggregateRoot {
     private Boolean active;
     private double balance;
 
@@ -17,7 +17,7 @@ public class ProductAggregate extends AggregateRoot {
         return this.balance;
     }
 
-    public ProductAggregate(Transaction command) {
+    public ProductTrxnAggregate(Transaction command) {
 
         boolean futureOrNot = true;//getFutureOrNot(command.getBidEndDate());
         if(futureOrNot) {

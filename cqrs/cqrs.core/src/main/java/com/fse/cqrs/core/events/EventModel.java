@@ -15,6 +15,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EventModel {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

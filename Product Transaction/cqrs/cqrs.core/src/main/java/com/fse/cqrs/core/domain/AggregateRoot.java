@@ -1,7 +1,7 @@
 package com.fse.cqrs.core.domain;
 
 import com.fse.cqrs.core.events.BaseEvent;
-import com.fse.cqrs.core.events.BaseEvent;
+
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
