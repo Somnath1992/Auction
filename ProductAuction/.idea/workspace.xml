@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1f56c5-8726-4742-b53a-f469bf15dc58" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/api/commands/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/api/commands/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/api/controllers/ProductTransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/api/controllers/ProductTransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/domain/ProductTrxnAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/domain/ProductTrxnAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/infrastructure/ProductTrxnEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/infrastructure/ProductTrxnEventProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/infrastructure/ProductTrxnEventStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/java/com/fse/product/cmd/infrastructure/ProductTrxnEventStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.cmd/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.common/src/main/java/com/fse/product/common/events/ProductTransactionEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.common/src/main/java/com/fse/product/common/events/ProductTransactionEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/java/com/fse/product/query/domain/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/java/com/fse/product/query/domain/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/java/com/fse/product/query/infrastructure/consumers/ProductEventConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/java/com/fse/product/query/infrastructure/consumers/ProductEventConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/java/com/fse/product/query/infrastructure/handlers/ProductTrxnEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/java/com/fse/product/query/infrastructure/handlers/ProductTrxnEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Product Transaction/ProductTransaction/product_transaction.query/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Product Transaction/cqrs/cqrs.core/product_transaction/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.cmd/src/main/java/com/fse/product/cmd/CommandApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product.cmd/src/main/java/com/fse/product/cmd/CommandApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.cmd/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product.cmd/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1652966350280" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Bank Account/bank-account/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Product-Transaction/ProductTransaction/pom.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -150,10 +132,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="458" y="222" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1653066109475" />
-    <state x="371" y="38" key="FileChooserDialogImpl" timestamp="1653468927906">
+    <state x="371" y="38" key="FileChooserDialogImpl" timestamp="1653500131619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="38" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1653468927906" />
+    <state x="371" y="38" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1653500131619" />
     <state width="1225" height="409" key="GridCell.Tab.0.bottom" timestamp="1653476746085">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
