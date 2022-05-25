@@ -17,6 +17,7 @@ public class ProductTrxnEventHandler implements EventHandler {
     public void on(ProductTransactionEvent event) {
       //  ProductCategory cat = ProductCategory.valueOf(event.getCategory().toUpperCase());
         var transaction = Transaction.builder()
+                .trx_ID(event.getTrx_ID())
                 .firstName(event.getFirstName())
                 .lastName(event.getLastName())
                 .address(event.getAddress())

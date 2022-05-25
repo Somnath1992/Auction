@@ -18,7 +18,7 @@ import java.sql.Timestamp;
 public class Transaction {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+   // @GeneratedValue
     private String trx_ID;
     private String firstName;
     private String lastName;

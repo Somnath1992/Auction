@@ -22,6 +22,7 @@ public class ProductTrxnAggregate extends AggregateRoot {
         boolean futureOrNot = true;//getFutureOrNot(command.getBidEndDate());
         if(futureOrNot) {
             raiseEvent(ProductTransactionEvent.builder()
+                    .trx_ID(command.getTrx_ID())
                     .firstName(command.getFirstName())
                     .lastName(command.getLastName())
                     .address(command.getAddress())
@@ -43,7 +44,7 @@ public class ProductTrxnAggregate extends AggregateRoot {
         else
             return false;
     }
-   /* public void apply(ProductOpenedEvent event) {
+  /* public void apply(ProductTransactionEvent event) {
         this.id = event.getId();
         this.active = true;
        // this. = event.getCategory();

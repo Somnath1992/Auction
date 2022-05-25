@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../cqrs/cqrs.core/product_transaction/ProductTransaction.iml" filepath="$PROJECT_DIR$/../cqrs/cqrs.core/product_transaction/ProductTransaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Product Transaction/cqrs/cqrs.core/cqrs.core (1).iml" filepath="$PROJECT_DIR$/../Product Transaction/cqrs/cqrs.core/cqrs.core (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Product Transaction/cqrs/cqrs.core/product_transaction/product_transaction.iml" filepath="$PROJECT_DIR$/../Product Transaction/cqrs/cqrs.core/product_transaction/product_transaction.iml" />
     </modules>
   </component>
 </project>

@@ -13,7 +13,8 @@ public class ProductTrxnEventProducer implements EventProducer {
     private KafkaTemplate<String, Object> kafkaTemplate;
 
     @Override
-    public void produce(String topic, BaseEvent event) {
+    public void produce(String topic, BaseEvent event)
+    {
         this.kafkaTemplate.send(topic, event);
     }
 }

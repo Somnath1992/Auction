@@ -14,7 +14,7 @@ public class ProductEventConsumer implements EventConsumer {
     @Autowired
     private EventHandler eventHandler;
 
-    @KafkaListener(topics = "productTrxnConsumer", groupId = "${spring.kafka.consumer.group-id}")
+    @KafkaListener(topics = "ProductTransactionEvent", groupId = "${spring.kafka.consumer.group-id}")
     @Override
     public void consume(@Payload ProductTransactionEvent event, Acknowledgment ack) {
         this.eventHandler.on(event);

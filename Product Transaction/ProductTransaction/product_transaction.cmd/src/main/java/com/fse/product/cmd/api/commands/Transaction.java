@@ -16,8 +16,6 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 public class Transaction extends BaseCommand {
 
-    @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
     private String trx_ID;
     private String firstName;
     private String lastName;

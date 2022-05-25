@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.UUID;
 
 @Service
 public class ProductTrxnEventStore implements EventStore {
@@ -30,6 +31,7 @@ public class ProductTrxnEventStore implements EventStore {
         }
         var version = expectedVersion;
         for (var event: events) {
+            aggregateId =UUID.randomUUID().toString();
             version++;
             event.setVersion(version);
             var eventModel = EventModel.builder()

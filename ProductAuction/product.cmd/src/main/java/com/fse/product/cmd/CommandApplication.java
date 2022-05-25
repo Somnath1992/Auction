@@ -22,7 +22,6 @@ public class CommandApplication {
 	private CommandHandler commandHandler;
 
 
-
 	public static void main(String[] args) {
 		SpringApplication.run(CommandApplication.class, args);
 	}

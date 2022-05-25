@@ -19,7 +19,7 @@ import java.util.Date;
 @SuperBuilder
 public class ProductTransactionEvent extends BaseEvent {
 
-    private Long trx_ID;
+    private String trx_ID;
     private String firstName;
     private String lastName;
     private String address;
